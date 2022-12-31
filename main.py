@@ -180,6 +180,6 @@ if __name__ =="__main__":
     parser.add_argument('-t', dest='is_train', default=True, help='is train?')
     parser.add_argument('-la', dest='target_la', default='fr', help='target language')
     args = parser.parse_args()    
-    config.set_config(args.modelName, args.resume, args.is_train)
+    config.set_config('UGT')
     main()
 
